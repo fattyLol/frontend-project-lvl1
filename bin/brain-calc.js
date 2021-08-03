@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import playEvenGame from '../games/even-game.js';
 import sayHello from './brain-games.js';
+import playCalcGame from '../games/calc-game.js';
 
 const name = sayHello();
-playEvenGame(name);
+playCalcGame(name);

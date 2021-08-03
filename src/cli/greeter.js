@@ -1,14 +1,7 @@
-import readline from 'readline';
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+import readlineSync from 'readline-sync'
 
 const greet = () => {
-  rl.question('May I ask your name? ', (name) => {
-    console.log(`Hello, dear ${name}`);
-  });
+  return readlineSync.question('May I ask your name? ');
 };
 
 export default greet;

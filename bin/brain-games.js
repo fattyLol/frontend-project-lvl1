@@ -2,4 +2,5 @@
 import greet from '../src/cli/greeter.js';
 
 console.log('Welcome to the Brain Games!');
-greet();
+const name = greet();
+console.log(`Hello, dear ${name}`);

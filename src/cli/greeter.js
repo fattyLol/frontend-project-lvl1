@@ -1,7 +1,5 @@
-import readlineSync from 'readline-sync'
+import readlineSync from 'readline-sync';
 
-const greet = () => {
-  return readlineSync.question('May I ask your name? ');
-};
+const greet = () => readlineSync.question('May I ask your name? ');
 
 export default greet;
